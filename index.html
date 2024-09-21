@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio - RAY</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="bootstrap-icons-1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <!-- Logo and Brand Name -->
+            <a class="navbar-brand fs-3" href="#" style="color: #2947A9;">
+                <img src="asset/logo.png" alt="Logo" class="me-2" style="max-width: 40px;">
+                <strong><em>My</em><span>Portfolio</span></strong>
+            </a>
+    
+            <!-- Toggler button for mobile view -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <!-- Navbar Links and Mode Toggle -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Navigation Links -->
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#clients">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <!-- Mode Toggle Buttons (Dark/Light Mode) -->
+                <div class="btn-group ms-lg-3 mt-3 mt-lg-0" role="group" aria-label="Theme Mode Toggle">
+                    <button id="darkModeBtn" class="btn btn-outline-secondary">
+                        <i class="bi bi-moon-stars-fill"></i>
+                    </button>
+                    <button id="lightModeBtn" class="btn btn-outline-secondary">
+                        <i class="bi bi-brightness-high-fill"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section id="header" class="d-flex align-items-center justify-content-center position-relative"
+        style="height: 80vh; overflow: hidden;">
+    
+        <!-- Background Video -->
+        <video autoplay muted loop class="position-absolute top-0 start-0 w-100 h-100 object-fit-cover">
+            <source src="asset/background.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    
+        <!-- Overlay Text Content -->
+        <div class="container position-relative z-index-1 text-center text-light px-3 px-md-0">
+            <h1 class="display-4 fw-bold" style="font-size: clamp(2.5rem, 5vw, 4rem);">Hi, I'm Rasya</h1>
+            <p class="lead" style="font-size: clamp(1rem, 2.5vw, 1.5rem);">
+                I'm a web developer passionate about creating interactive and responsive websites.
+            </p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Image Section -->
+                <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
+                    <img src="asset/profile.jpg" class="img-fluid rounded-circle" alt="Your Name" style="max-width: 250px;">
+                </div>
+                <!-- Text Section -->
+                <div class="col-12 col-md-8">
+                    <h2 class="fw-bold">About Me</h2>
+                    <p>I'm a web developer passionate about creating interactive and responsive websites.<br>
+                        I'm a beginner in programming, and I’m learning HTML, CSS, JavaScript, C++, Laravel, PHP, MySQL,
+                        PhpMyAdmin.<br>
+                        <strong>COME LEARN PROGRAMMING WITH ME ⸜(｡˃ ᵕ ˂ )⸝♡</strong>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5" style="font-size: 2.5rem;">New Projects</h2>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="asset/p1.png" class="card-img-top img-fluid" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">The Box Company</h5>
+                            <p class="card-text">Description of Project 1.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="asset/p2.png" class="card-img-top img-fluid" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">House of Gallery</h5>
+                            <p class="card-text">Description of Project 2.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="asset/p3.png" class="card-img-top img-fluid" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Marketplace</h5>
+                            <p class="card-text">Description of Project 3.</p>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="py-5 mb-5">
+        <div class="container text-center">
+            <h2 class="mb-3 mt-5" style="font-size: 2.5rem;">Our Trusted Clients</h2>
+            <p class="mb-5 text-secondary">We would like to thank our valued clients for their continued support.
+                Our loyal customers have always been at the heart of our business.
+                We are committed to providing the best service to our esteemed clients.
+            </p>
+    
+            <div class="d-flex flex-wrap justify-content-center">
+                <!-- Google -->
+                <span class="d-inline-flex align-items-center mx-3 my-2"
+                    style="opacity: 0.5; transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
+                    onmouseover="this.style.opacity='1'; this.style.background='linear-gradient(90deg, #4285F4, #34A853, #FBBC05, #EA4335)'; this.style.webkitBackgroundClip='text'; this.style.webkitTextFillColor='transparent';"
+                    onmouseout="this.style.opacity='0.5'; this.style.webkitTextFillColor='initial'; this.style.background='initial';">
+                    Google
+                </span>
+    
+                <!-- AWS -->
+                <span class="d-inline-flex align-items-center mx-3 my-2"
+                    style="opacity: 0.5; transition: opacity 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
+                    onmouseover="this.style.opacity='1'; this.style.color='#FF9900'; this.style.textShadow='2px 2px 4px rgba(255, 153, 0, 0.7)';"
+                    onmouseout="this.style.opacity='0.5'; this.style.color='initial'; this.style.textShadow='none';">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS"
+                        style="height: 24px; margin-right: 8px;">
+                    AWS
+                </span>
+    
+                <!-- HTB Academy -->
+                <span class="d-inline-flex align-items-center mx-3 my-2 position-relative"
+                    style="opacity: 0.5; transition: opacity 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
+                    onmouseover="this.style.opacity='1'; this.style.color='#78be20'; this.querySelector('.lock').style.opacity='1';"
+                    onmouseout="this.style.opacity='0.5'; this.style.color='initial'; this.querySelector('.lock').style.opacity='0';">
+                    HTB Academy
+                    <span class="lock position-absolute"
+                        style="right: -25px; top: 5px; font-size: 1.2rem; opacity: 0; transition: opacity 0.3s ease-in-out;">🔒</span>
+                </span>
+    
+                <!-- Gojek -->
+                <span class="d-inline-flex align-items-center mx-3 my-2"
+                    style="opacity: 0.5; transition: opacity 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
+                    onmouseover="this.style.opacity='1'; this.style.color='#1f4f16';"
+                    onmouseout="this.style.opacity='0.5'; this.style.color='initial';">
+                    Gojek
+                </span>
+    
+                <!-- Tokopedia -->
+                <span class="d-inline-flex align-items-center mx-3 my-2"
+                    style="opacity: 0.5; transition: opacity 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
+                    onmouseover="this.style.opacity='1'; this.style.color='#03AC0E';"
+                    onmouseout="this.style.opacity='0.5'; this.style.color='initial';">
+                    Tokopedia
+                </span>
+    
+                <!-- Traveloka -->
+                <span class="d-inline-flex align-items-center mx-3 my-2 position-relative"
+                    style="opacity: 0.5; transition: opacity 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
+                    onmouseover="this.style.opacity='1'; this.style.color='#00ADEF';"
+                    onmouseout="this.style.opacity='0.5'; this.style.color='initial';">
+                    Traveloka
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="container py-5 mb-5">
+        <h2 class="text-center mb-5" style="font-size: 2.5rem; font-weight: bold;">Latest Articles</h2>
+    
+        <div class="row">
+            <!-- Blog Post 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="asset/blog01.jpg" class="card-img-top img-fluid" alt="Post 1">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold;">Understanding JavaScript Closures</h5>
+                        <p class="card-text text-muted">JavaScript closures are a powerful concept that allows developers to
+                            control variable scope...</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted" style="font-size: 0.9rem;">
+                        Posted on September 21, 2024 by Rasya R F
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Blog Post 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="asset/blog02.jpg" class="card-img-top img-fluid" alt="Post 2">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold;">Mastering Python for Data Science</h5>
+                        <p class="card-text text-muted">Python is the language of choice for data science and machine
+                            learning. Learn how to start your journey...</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted" style="font-size: 0.9rem;">
+                        Posted on August 15, 2024 by Rasya R F
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Blog Post 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card shadow-sm h-100">
+                    <img src="asset/blog03.jpg" class="card-img-top img-fluid" alt="Post 3">
+                    <div class="card-body">
+                        <h5 class="card-title" style="font-weight: bold;">Why Functional Programming Matters</h5>
+                        <p class="card-text text-muted">Functional programming offers a different approach to software
+                            design. Explore its benefits and how to use it...</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                    <div class="card-footer text-muted" style="font-size: 0.9rem;">
+                        Posted on July 10, 2024 by Rasya R F
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="text-center mt-4">
+            <a href="#" class="btn btn-outline-dark" style="padding: 0.75rem 1.5rem; font-size: 1.1rem;">View All
+                Articles</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 mb-5">
+        <div class="container">
+            <h2 class="text-center mb-5" style="font-size: 2.5rem; font-weight: bold;">Contact Me</h2>
+            <form action="submit_form.php" method="post">
+                <div class="row">
+                    <!-- Name Input -->
+                    <div class="col-md-6 mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                            required>
+                    </div>
+                    <!-- Email Input -->
+                    <div class="col-md-6 mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
+                            required>
+                    </div>
+                </div>
+                <!-- Message Input -->
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message"
+                        required></textarea>
+                </div>
+                <!-- Submit Button -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer id="footer" class="bg-dark text-white text-lg-start mt-5 py-3" style="width: 100%; bottom: 0;">
+        <div class="container">
+            <div class="row text-start mt-5">
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <h5 class="pb-2 mb-4"
+                        style="text-decoration: underline; text-underline-offset: 10px; text-decoration-color: rgb(163, 6, 6);">
+                        Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-white">PT. Global Edutipa Informatika</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">Edutipa Academy</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">Web Developer</a></li>
+                        <li><a href="#" class="text-decoration-none text-white">Web Programming</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-6 mb-4">
+                    <h5 class="pb-2 mb-4"
+                        style="text-decoration: underline; text-underline-offset: 10px; text-decoration-color: rgb(163, 6, 6);">
+                        Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-white">FAQ</a></li>
+                        <li><a href="#header" class="text-decoration-none text-white">Home</a></li>
+                        <li><a href="#about" class="text-decoration-none text-white">About</a></li>
+                        <li><a href="#projects" class="text-decoration-none text-white">Portfolio</a></li>
+                        <li><a href="#clients" class="text-decoration-none text-white">Clients</a></li>
+                        <li><a href="#blog" class="text-decoration-none text-white">Blog</a></li>
+                        <li><a href="#contact" class="text-decoration-none text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 mb-4">
+                    <h5 class="pb-2 mb-4"
+                        style="text-decoration: underline; text-underline-offset: 10px; text-decoration-color: rgb(163, 6, 6);">
+                        Follow Me</h5>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#" aria-label="GitHub" class="text-white"><i
+                                    class="bi bi-github mx-2"></i></a></li>
+                        <li class="list-inline-item"><a href="#" aria-label="Twitter" class="text-white"><i
+                                    class="bi bi-twitter mx-2"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/rasyafa_140" aria-label="Instagram"
+                                class="text-white"><i class="bi bi-instagram mx-2"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/ray-rasya-0bb752290/"
+                                aria-label="LinkedIn" class="text-white"><i class="bi bi-linkedin mx-2"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <p>&copy; 2024 RAY Web Portfolio. All Rights Reserved.<br>Let's Create a New Technology with Love</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Rest of the content -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
