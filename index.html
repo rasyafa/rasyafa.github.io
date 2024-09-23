@@ -16,6 +16,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
+
             <!-- Logo and Brand Name -->
             <a class="navbar-brand fs-3" href="#" style="color: #2947A9;">
                 <img src="asset/logo.png" alt="Logo" class="me-2" style="max-width: 40px;">
@@ -30,6 +31,7 @@
     
             <!-- Navbar Links and Mode Toggle -->
             <div class="collapse navbar-collapse" id="navbarNav">
+
                 <!-- Navigation Links -->
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -51,6 +53,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
+
                 <!-- Mode Toggle Buttons (Dark/Light Mode) -->
                 <div class="btn-group ms-lg-3 mt-3 mt-lg-0" role="group" aria-label="Theme Mode Toggle">
                     <button id="darkModeBtn" class="btn btn-outline-secondary">
@@ -87,10 +90,12 @@
     <section id="about" class="py-5">
         <div class="container">
             <div class="row align-items-center">
+
                 <!-- Image Section -->
                 <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
                     <img src="asset/profile.jpg" class="img-fluid rounded-circle" alt="Your Name" style="max-width: 250px;">
                 </div>
+
                 <!-- Text Section -->
                 <div class="col-12 col-md-8">
                     <h2 class="fw-bold">About Me</h2>
@@ -114,8 +119,13 @@
                         <img src="asset/p1.png" class="card-img-top img-fluid" alt="Project 1">
                         <div class="card-body">
                             <h5 class="card-title">The Box Company</h5>
-                            <p class="card-text">Description of Project 1.</p>
-                            <a href="#" class="btn btn-primary">View Project</a>
+                            <p class="card-text">A minimalist design company that specializes in creating clean, functional spaces. Our mission is to build structures
+                            that are both aesthetically pleasing and practical.</p>
+
+                            <!-- Trigger Modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                                View Project
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -124,8 +134,13 @@
                         <img src="asset/p2.png" class="card-img-top img-fluid" alt="Project 2">
                         <div class="card-body">
                             <h5 class="card-title">House of Gallery</h5>
-                            <p class="card-text">Description of Project 2.</p>
-                            <a href="#" class="btn btn-primary">View Project</a>
+                            <p class="card-text">An interior design firm that curates unique and inspiring living spaces. We combine art, architecture, and design to
+                            create truly one-of-a-kind homes.</p>
+
+                            <!-- Trigger Modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal2">
+                                View Project
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -134,8 +149,12 @@
                         <img src="asset/p3.png" class="card-img-top img-fluid" alt="Project 3">
                         <div class="card-body">
                             <h5 class="card-title">Card Marketplace</h5>
-                            <p class="card-text">Description of Project 3.</p>
-                            <a href="#" class="btn btn-primary">View Project</a>
+                            <p class="card-text">A digital platform for artists to sell their original artwork as customizable greeting cards.</p>
+
+                            <!-- Trigger Modal -->
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#projectModal1">
+                                View Project
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -153,15 +172,18 @@
             </p>
     
             <div class="d-flex flex-wrap justify-content-center">
+
                 <!-- Google -->
+                 <a href="https://google.co.id">
                 <span class="d-inline-flex align-items-center mx-3 my-2"
                     style="opacity: 0.5; transition: opacity 0.3s ease-in-out, color 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
                     onmouseover="this.style.opacity='1'; this.style.background='linear-gradient(90deg, #4285F4, #34A853, #FBBC05, #EA4335)'; this.style.webkitBackgroundClip='text'; this.style.webkitTextFillColor='transparent';"
                     onmouseout="this.style.opacity='0.5'; this.style.webkitTextFillColor='initial'; this.style.background='initial';">
                     Google
-                </span>
+                </span></a>
     
                 <!-- AWS -->
+                <a href="https://aws.amazon.com/">
                 <span class="d-inline-flex align-items-center mx-3 my-2"
                     style="opacity: 0.5; transition: opacity 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
                     onmouseover="this.style.opacity='1'; this.style.color='#FF9900'; this.style.textShadow='2px 2px 4px rgba(255, 153, 0, 0.7)';"
@@ -169,9 +191,10 @@
                     <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg" alt="AWS"
                         style="height: 24px; margin-right: 8px;">
                     AWS
-                </span>
+                </span></a>
     
                 <!-- HTB Academy -->
+                 <a href="https://academy.hackthebox.com/">
                 <span class="d-inline-flex align-items-center mx-3 my-2 position-relative"
                     style="opacity: 0.5; transition: opacity 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
                     onmouseover="this.style.opacity='1'; this.style.color='#78be20'; this.querySelector('.lock').style.opacity='1';"
@@ -179,31 +202,35 @@
                     HTB Academy
                     <span class="lock position-absolute"
                         style="right: -25px; top: 5px; font-size: 1.2rem; opacity: 0; transition: opacity 0.3s ease-in-out;">🔒</span>
-                </span>
+                </span></a>
     
                 <!-- Gojek -->
+                 <a href="https://www.gojek.com/">
                 <span class="d-inline-flex align-items-center mx-3 my-2"
                     style="opacity: 0.5; transition: opacity 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
                     onmouseover="this.style.opacity='1'; this.style.color='#1f4f16';"
                     onmouseout="this.style.opacity='0.5'; this.style.color='initial';">
                     Gojek
-                </span>
+                </span></a>
     
                 <!-- Tokopedia -->
+                 <a href="https://www.gojek.com/">
                 <span class="d-inline-flex align-items-center mx-3 my-2"
                     style="opacity: 0.5; transition: opacity 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
                     onmouseover="this.style.opacity='1'; this.style.color='#03AC0E';"
                     onmouseout="this.style.opacity='0.5'; this.style.color='initial';">
                     Tokopedia
-                </span>
+                </span></a>
     
                 <!-- Traveloka -->
+                 <a href="https://www.traveloka.com/en-id">
                 <span class="d-inline-flex align-items-center mx-3 my-2 position-relative"
                     style="opacity: 0.5; transition: opacity 0.3s ease-in-out; font-size: 1.5rem; font-weight: bold;"
                     onmouseover="this.style.opacity='1'; this.style.color='#00ADEF';"
                     onmouseout="this.style.opacity='0.5'; this.style.color='initial';">
                     Traveloka
-                </span>
+                </span></a>
+
             </div>
         </div>
     </section>
@@ -213,6 +240,7 @@
         <h2 class="text-center mb-5" style="font-size: 2.5rem; font-weight: bold;">Latest Articles</h2>
     
         <div class="row">
+            
             <!-- Blog Post 1 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card shadow-sm h-100">
@@ -221,7 +249,8 @@
                         <h5 class="card-title" style="font-weight: bold;">Understanding JavaScript Closures</h5>
                         <p class="card-text text-muted">JavaScript closures are a powerful concept that allows developers to
                             control variable scope...</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                        <!-- Trigger Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#blogModal1">Read More</button>
                     </div>
                     <div class="card-footer text-muted" style="font-size: 0.9rem;">
                         Posted on September 21, 2024 by Rasya R F
@@ -237,7 +266,8 @@
                         <h5 class="card-title" style="font-weight: bold;">Mastering Python for Data Science</h5>
                         <p class="card-text text-muted">Python is the language of choice for data science and machine
                             learning. Learn how to start your journey...</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                        <!-- Trigger Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#blogModal2">Read More</button>
                     </div>
                     <div class="card-footer text-muted" style="font-size: 0.9rem;">
                         Posted on August 15, 2024 by Rasya R F
@@ -253,7 +283,8 @@
                         <h5 class="card-title" style="font-weight: bold;">Why Functional Programming Matters</h5>
                         <p class="card-text text-muted">Functional programming offers a different approach to software
                             design. Explore its benefits and how to use it...</p>
-                        <a href="#" class="btn btn-primary">Read More</a>
+                        <!-- Trigger Modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#blogModal1">Read More</button>
                     </div>
                     <div class="card-footer text-muted" style="font-size: 0.9rem;">
                         Posted on July 10, 2024 by Rasya R F
@@ -263,7 +294,7 @@
         </div>
     
         <div class="text-center mt-4">
-            <a href="#" class="btn btn-outline-dark" style="padding: 0.75rem 1.5rem; font-size: 1.1rem;">View All
+            <a href="#" class="btn btn-primary btn-lg" style="color: white; padding: 0.75rem 1.5rem; font-size: 1.1rem;">View All
                 Articles</a>
         </div>
     </section>
@@ -272,14 +303,23 @@
     <section id="contact" class="py-5 mb-5">
         <div class="container">
             <h2 class="text-center mb-5" style="font-size: 2.5rem; font-weight: bold;">Contact Me</h2>
-            <form action="submit_form.php" method="post">
+
+            <!-- Alert div, initially hidden -->
+            <div id="alertSuccess" class="alert alert-success alert-dismissible fade" role="alert">
+                Thank you! Your message has been sent.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+
+            <form class="needs-validation" action="https://formspree.io/your-email" method="post" novalidate>
                 <div class="row">
+
                     <!-- Name Input -->
                     <div class="col-md-6 mb-3">
                         <label for="name" class="form-label">Name</label>
                         <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
                             required>
                     </div>
+
                     <!-- Email Input -->
                     <div class="col-md-6 mb-3">
                         <label for="email" class="form-label">Email</label>
@@ -287,12 +327,14 @@
                             required>
                     </div>
                 </div>
+
                 <!-- Message Input -->
                 <div class="mb-3">
                     <label for="message" class="form-label">Message</label>
                     <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message"
                         required></textarea>
                 </div>
+                
                 <!-- Submit Button -->
                 <div class="text-center">
                     <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
@@ -300,6 +342,12 @@
             </form>
         </div>
     </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollTopBtn" class="btn btn-primary position-fixed bottom-0 end-0 m-3 rounded-circle" title="Go to top"
+        style="display: none;">
+        <i class="bi bi-arrow-up"></i>
+    </button>
 
     <!-- Footer Section -->
     <footer id="footer" class="bg-dark text-white text-lg-start mt-5 py-3" style="width: 100%; bottom: 0;">
@@ -335,10 +383,10 @@
                         style="text-decoration: underline; text-underline-offset: 10px; text-decoration-color: rgb(163, 6, 6);">
                         Follow Me</h5>
                     <ul class="list-inline">
-                        <li class="list-inline-item"><a href="#" aria-label="GitHub" class="text-white"><i
+                        <li class="list-inline-item"><a href="https://github.com/rasyafa" aria-label="GitHub" class="text-white"><i
                                     class="bi bi-github mx-2"></i></a></li>
-                        <li class="list-inline-item"><a href="#" aria-label="Twitter" class="text-white"><i
-                                    class="bi bi-twitter mx-2"></i></a></li>
+                        <li class="list-inline-item"><a href="https://x.com/?lang=id" aria-label="Twitter" class="text-white"><i
+                                    class="bi bi-twitter-x mx-2"></i></a></li>
                         <li class="list-inline-item"><a href="https://www.instagram.com/rasyafa_140" aria-label="Instagram"
                                 class="text-white"><i class="bi bi-instagram mx-2"></i></a></li>
                         <li class="list-inline-item"><a href="https://www.linkedin.com/in/ray-rasya-0bb752290/"
@@ -347,10 +395,30 @@
                 </div>
             </div>
             <div class="text-center mt-5">
-                <p>&copy; 2024 RAY Web Portfolio. All Rights Reserved.<br>Let's Create a New Technology with Love</p>
+                <p>&copy; 2024 RASYAFA Web Portfolio. All Rights Reserved.<br>Let's Create a New Technology with Love</p>
             </div>
         </div>
     </footer>
+
+    <!-- Modal Template -->
+    <div class="modal fade" id="dynamicModal" tabindex="-1" aria-labelledby="dynamicModalTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="dynamicModalTitle">Dynamic Title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" style="max-height: 80vh; overflow-y: auto;">
+                    <img src="" id="dynamicModalImage" alt="Dynamic Image" class="img-fluid mb-3">
+                    <p id="dynamicModalContent">Dynamic content goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Rest of the content -->
     <script src="js/bootstrap.bundle.min.js"></script>

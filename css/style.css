@@ -10,11 +10,20 @@
      color: #f8f9fa;
  }
 
- .dark-mode .mode-toggle button:hover {
-     background-color: #495057;
- }
+/* Ensure modal-header and modal-footer are sticky to top/bottom */
+.modal-header,
+.modal-footer {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
 
-
+.modal-footer {
+    bottom: 0;
+    background-color: #fff;
+    z-index: 1;
+}
 
 
 
