@@ -25,5 +25,35 @@
     z-index: 1;
 }
 
+/* Dark Mode Modal Styling */
+body.dark-mode .modal-content {
+    background-color: #2c2c2c;
+    /* Warna background modal yang gelap */
+    color: #f8f9fa;
+    /* Warna teks yang lebih terang */
+}
+
+body.dark-mode .modal-header {
+    background-color: #212529;
+    /* Warna teks header modal */
+    border-bottom: 1px solid #444;
+    /* Tambahkan batas bawah yang lebih gelap */
+}
+
+body.dark-mode .modal-title {
+    color: #fff;
+    /* Warna teks judul modal agar terlihat */
+}
+
+body.dark-mode .modal-header .btn-close {
+    color: #fff;
+    /* Warna tombol close menjadi putih */
+}
+
+body.dark-mode .modal-footer {
+    background-color: #212529;
+}
+
+
 
 
